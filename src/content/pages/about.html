@@ -15,61 +15,202 @@ eleventyNavigation:
 {% endblock %}
 
 {% block body %}
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
-        </picture>
+<div id="banner-1402">
+    <div class="cs-container">
+        <span class="cs-int-title">About Us</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="" class="cs-link cs-active">About</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-laughing.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-laughing.jpg">
+        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-laughing.jpg" alt="people laughing" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+                                
 
-    </section>
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
 
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
+<!-- ============================================ 
+    This Stitch is used for content heavy interior pages
+    that have no design or layout.  Often times these are 
+    content silos where you talk extensively about a topic
+    to educate your visitors and rank on Google for the 
+    content.  These are great for pages that have a TON
+    of content.  Design isn't important here, it's all 
+    about making the content accessible and easy to read.
+================================================= -->
 
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
+<section id="content-page-1402">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://thumbs.dreamstime.com/z/view-connor-pass-24098115.jpg?ct=jpeg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://thumbs.dreamstime.com/z/view-connor-pass-24098115.jpg?ct=jpeg">
+                    <img loading="lazy" decoding="async" src="https://thumbs.dreamstime.com/z/view-connor-pass-24098115.jpg?ct=jpeg" alt="people" width="542" height="728">
                 </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
+                <!-- <div class="cs-box">
+                    <img class="cs-box-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg" alt="people" width="60" height="60">
+                    <span class="cs-desc">
+                        We’ve Over 26 Years of Experience
+                    </span>
+                </div> -->
             </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trophy.svg" alt="icon" width="32" height="32">
+                        Precision-Crafted Solutions
+                    </h3>
+                    <p class="cs-item-text">
+                        Every website we build is handcrafted to meet your business goals. From strategy to launch, we focus on performance, usability, and design that drives results—not just aesthetics.
                     </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/circle-check.svg" alt="icon" width="32" height="32">
+                        Reliable Partnership, Long-Term Support
+                    </h3>
+                    <p class="cs-item-text">
+                        We don’t disappear after launch. Spark Web Designs is your ongoing digital partner—offering proactive maintenance, support, and optimization to keep your site thriving long after it goes live. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+            <div class="cs-content">
+                <h1 class="cs-title">A Personalized Approach To Your <span class="cs-color">Digital Presence</span></h1>
+            
+                <h2>More Than Just Beautiful Websites — We Build Digital Impact.</h2>
+            
+                <p>
+                    At Spark Web Designs, we believe a great website should do more than just look good — it should work hard for your business. Based in the heart of <strong>County Kerry, Ireland</strong>, we’re a small, driven team with a big vision: to help brands shine online through design that’s as strategic as it is stunning.
+                </p>
+            
+                <p>
+                    Founded on passion, powered by precision, and guided by purpose, Spark is where creativity meets functionality. Every pixel, every line of code, every interaction — it all serves one goal: to spark growth, engagement, and results.
+                </p>
+            
+                <p>
+                    We’ve helped businesses across Ireland and beyond — from ambitious startups to established companies — stand out in crowded markets with websites that not only turn heads, but turn visitors into customers.
+                </p>
+            
+                <h3>Why We’re Different</h3>
+            
+                <p>
+                    We’re not a faceless agency. When you work with Spark, you’re not passed down a chain of account managers. You work directly with the people who design, build, and care deeply about your project.
+                </p>
+            
+                <h4>We value:</h4>
+                <ul>
+                    <li><strong>Craftsmanship:</strong> No cookie-cutter templates. Every design is custom, tailored, and refined.</li>
+                    <li><strong>Clarity:</strong> We speak your language—no tech jargon, just honest communication.</li>
+                    <li><strong>Commitment:</strong> We don’t just launch websites. We build long-term partnerships.</li>
+                </ul>
+            
+                <h3>Proudly Made in Kerry, Loved Worldwide</h3>
+            
+                <p>
+                    Rooted in Kerry’s creative spirit and entrepreneurial culture, we bring a uniquely Irish warmth and work ethic to every project. Whether you're down the road or across the ocean, we bring the same dedication and care to your vision.
+                </p>
+            
+                <h4>Let’s Build Something Brilliant Together.</h4>
+            
+                <p>
+                    If you’re looking for a team that listens, thinks, and delivers — you’ve just found your digital partner.  
+                    <a href="/contact">Let’s spark something extraordinary.</a>
+                </p>
             </div>
         </div>
-    </section>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-944">
+    <div class="cs-container">
+        <!-- Left Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Our Service</span>
+            <h2 class="cs-title">What We Provide To Our Customer</h2>
+            <p class="cs-text">
+                Designed to maintain your current colour, blend out a growing root or balance your blonde while providing full and demi-permanent coverage.
+            </p>
+            <a class="cs-button-solid" aria-label="read more about our services" href="">View All Services</a>
+        </div>
+        <!-- Right Image Section -->
+        <div class="cs-picture-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-wash.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-wash.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair-wash.jpg" alt="hair washing" width="630" height="380" aria-hidden="true">
+            </picture>
+            <a class="cs-play" href="">
+                <img class="cs-play-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/play-white.svg" alt="play link" width="24" height="24" aria-hidden="true">
+            </a>
+        </div>
+    </div>
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tree-icon.svg" alt="hair cut" width="40" height="40">
+            <h3 class="cs-h3">Cuts & Colors</h3>
+            <p class="cs-item-text">
+                From barely there pink to balayage blonde, our colour experts will nail any tone you can imagine.
+            </p>
+            <a href="" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair1.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tree-icon.svg" alt="hair cut" width="40" height="40">
+            <h3 class="cs-h3">Natural products</h3>
+            <p class="cs-item-text">
+                From barely there pink to balayage blonde, our colour experts will nail any tone you can imagine.
+            </p>
+            <a href="" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair2.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/tree-icon.svg" alt="hair cut" width="40" height="40">
+            <h3 class="cs-h3">Hightlight Styles</h3>
+            <p class="cs-item-text">
+                From barely there pink to balayage blonde, our colour experts will nail any tone you can imagine.
+            </p>
+            <a href="" class="cs-link">Read More</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hair3.jpg" alt="hair cut" width="480" height="425">
+            </picture>
+        </li>
+    </ul>
+    <!--Waves Background-->
+    <picture class="cs-waves">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves-m.svg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves.svg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/waves.svg" alt="waves graphic" width="1920" height="331" aria-hidden="true">
+    </picture>
+</section>
+                                
 
     {% include 'components/cta.html' %}
 

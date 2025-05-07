@@ -73,7 +73,7 @@
     font-size: 1rem;
     line-height: 3.125em;
     font-weight: bold;
-    color: #fff;
+    color: #000;
     transition: color 0.3s;
     transition-delay: 0.1s;
     text-align: center;
@@ -1221,15 +1221,14 @@
   #footer .left-section .logo {
     display: inline-block;
     margin: auto;
- margin-bottom: 1.875rem;
-    height: 4rem;
+    margin-bottom: 1.875em;
+    height: 2em;
     width: auto;
     text-align: center;
   }
   #footer .left-section .logo img {
     display: block;
-    height: 150%;
-    margin-left: -15px;
+    height: 100%;
     width: auto;
   }
   #footer .left-section p {
